@@ -1,0 +1,104 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    
+  }
+  
+  nav {
+   
+      color: #fff;
+      background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+      background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+      background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+      background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3.125rem;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  li {
+    float: right;
+    margin-right: 3.125rem;
+  }
+  
+  li a {
+    color: whitesmoke;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  #brand {
+    float: left;
+    margin-left: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+  }
+  
+  h1 {
+    font-size: 50pt;
+    font-family: fantasy;
+  }
+  
+  .header-tag {
+    text-align: center;
+    
+  }
+  
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 20px;
+  }
+  
+  #home {
+    margin-top: 30px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: url(https://images.unsplash.com/photo-1628688059126-7b7c7afb7681?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+   }
+  
+  #about-picture{
+    width: 30vw;
+    float: left;
+  }
+  
+  #profile-pic {
+    height: 300px;
+    width: 300px;
+    border-radius: .4em;
+    box-shadow: 5px 7px 2px slategray;  
+  }
+  
+  #about-content {
+    width: 40vw;
+    float: right;
+    text-align: justify;
+  }
+  
+  /* comments in css */
